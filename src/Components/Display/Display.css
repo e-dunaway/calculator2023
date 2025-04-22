@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    font-family: MV Boli;
+}
+
+#body {
+    background-image: linear-gradient(to right, red, orange, yellow, green, rgb(18, 167, 217), magenta, purple);
+    margin-top: 150px;
+    padding-bottom: 75px;
+}
+
+#screen {
+    background-color: white;
+    overflow-wrap: break-word;
+    text-shadow: 2px 2px 5px;
+}
+
+#screen:hover{
+    background-color: black;
+    color: white;
+}
+
+#buttoncontainer {
+    height: 400px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border: 20px solid black;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    box-shadow: 2px 4px 30px black;
+    background-color: rgb(71, 10, 73);
+}
+
+#buttoncontainer:hover {
+    border:20px solid white;
+    box-shadow: 2px 4px 30px white;
+
+}
+
+#clear {
+    background-color:rgb(97, 47, 144);
+    width: 150px;
+}
+
+#equals {
+    background-color: rgb(212, 17, 121);
+    width: 100px;
+}
+
+#divide, #multiply, #subtract, #add, #period, #zero, #one, #two, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+    width: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    text-shadow: 2px 4px 10px ;
+}
+
+h1:hover {
+    color:whitesmoke;
+    text-shadow: 2px 2px 20px;
+}
+
+button {
+   font-size: 40px;
+   border: 2px solid black;
+   border-radius: 10px;   
+}
+
+button:hover {
+    background-color:black;
+    color:white;
+}
+
+#display {
+    font-size: 30px;
+    text-align: center;
+}
